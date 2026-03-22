@@ -1,0 +1,28 @@
+scikit-learn
+# flash-attn # module load cuda/12.1 # LD_LIBRARY_PATH=./env_semeval_py39/ pip install  --no-build-isolation  flash-attn  -U --force-reinstall
+# OK!! # module load cuda/12.1 LD_LIBRARY_PATH=./env_semeval_py39/ pip install  --no-build-isolation   flash_attn==2.7.4.post1  -U --force-reinstall
+tensorboard
+tensorboardX
+tiktoken
+blobfile
+seaborn
+matplotlib
+
+# llm
+triton_kernels
+triton
+transformers==4.53.1
+accelerate
+bitsandbytes
+optimum
+pytorch-lightning
+torch
+huggingface
+lightning
+datasets # install again: pip install -U datasets
+peft
+trl
+graphviz # conda install conda-forge/graphviz  # conda install python-graphviz
+
+
+ 
